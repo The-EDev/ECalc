@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/">
+        <file alias="main.qml">contents/ui/main.qml</file>
+        <file alias="ButtonText.qml">contents/ui/custom/ButtonText.qml</file>
+        <file alias="EButton.qml">contents/ui/custom/EButton.qml</file>
+        <file alias="InputButton.qml">contents/ui/custom/InputButton.qml</file>
+        <file alias="CalcButton.qml">contents/ui/custom/CalcButton.qml</file>
+    </qresource>
+</RCC>

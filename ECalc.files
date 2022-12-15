@@ -1,0 +1,11 @@
+CMakeLists.txt
+src/CMakeLists.txt
+src/contents/ui/main.qml
+src/contents/ui/custom/ButtonText.qml
+src/contents/ui/custom/EButton.qml
+src/contents/ui/custom/InputButton.qml
+src/contents/ui/custom/CalcButton.qml
+src/main.cpp
+src/parser.cpp
+src/parser.h
+src/resources.qrc
