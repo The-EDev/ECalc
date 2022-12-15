@@ -18,6 +18,11 @@ Kirigami.ApplicationWindow {
     // Initial page to be loaded on app load
     pageStack.initialPage: Kirigami.Page {
 
+        Shortcut {
+            sequence: "Enter"
+            onActivated: inputField.text = backend.calculate(inputField.text)
+        }
+
         //        Controls.Label {
         //            // Center label horizontally and vertically within parent element
         //            anchors.centerIn: parent
